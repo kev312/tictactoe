@@ -1,17 +1,4 @@
-# 🎮 Tres en Raya - Python 
 
-&lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white"&gt;
-  &lt;img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"&gt;
-  &lt;img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"&gt;
-&lt;/p&gt;
-
-&lt;p align="center"&gt;
-  &lt;b&gt;Juego clásico de Tres en Raya (Tic-Tac-Toe) en Python&lt;/b&gt;&lt;br&gt;
-  🧠 IA Estratégica | 👤 1 Jugador vs 🤖 PC | ⚡ Sin dependencias externas
-&lt;/p&gt;
-
----
 
 
 ## ✨ Características
