@@ -1,9 +1,9 @@
-
 # 🎮 Tres en Raya - Python con IA
 
 &lt;p align="center"&gt;
   &lt;img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white"&gt;
   &lt;img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"&gt;
+  &lt;img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"&gt;
 &lt;/p&gt;
 
 &lt;p align="center"&gt;
@@ -15,15 +15,13 @@
 
 ## 📸 Vista Previa
 
-**Menú Principal:**
-  
 | Menú Principal | Partida en Curso | Victoria |
 |:---:|:---:|:---:|
-| &lt;img src="https://i.imgur.com/placeholder1.png" width="250" alt="Menú"&gt; | &lt;img src="https://i.imgur.com/placeholder2.png" width="250" alt="Juego"&gt; | &lt;img src="https://i.imgur.com/placeholder3.png" alt="Victoria"&gt; |
+| ![Menú](screenshots/menu.png) | ![Juego](screenshots/juego.png) | ![Victoria](screenshots/victoria.png) |
 
-&lt;/div&gt;
+*(Añade tus capturas de pantalla en la carpeta `/screenshots` o reemplaza las URLs)*
 
-##  Características
+## ✨ Características
 
 - 🎯 **IA Inteligente**: La computadora no juega al azar, usa estrategias ofensivas y defensivas
 - 👤 **Personalización**: Elige tu nombre y símbolo (X o O)
@@ -31,6 +29,10 @@
 - 🎨 **Interfaz limpia**: Diseño visual en terminal con emojis y colores
 - ⚡ **Rápido**: Sin dependencias externas, solo Python puro
 - 🔄 **Rejugable**: Sistema de revancha integrado
+
+## 🧠 Algoritmo de la IA
+
+La inteligencia artificial utiliza un sistema de **prioridades heurísticas**:
 
 1. 🥇 **Ganar**: Si puede ganar en el siguiente movimiento, lo hace
 2. 🛡️ **Bloquear**: Si el jugador va a ganar, lo bloquea  
@@ -41,9 +43,16 @@
 ## 🚀 Instalación y Uso
 
 ### Requisitos
-- [Python 3.8+](https://www.python.org/downloads/) (Librerías utilizadas: [`random`](https://docs.python.org/3/library/random.html), [`time`](https://docs.python.org/3/library/time.html))
+- [Python 3.8+](https://www.python.org/downloads/)
 
-*Nota: Todas las librerías son built-in, no necesitas instalar nada extra*
+### Librerías Utilizadas
+
+| Librería | Documentación Oficial | Uso en el proyecto |
+|----------|----------------------|-------------------|
+| **random** | [docs.python.org/3/library/random.html](https://docs.python.org/3/library/random.html) | Selección aleatoria de esquinas cuando no hay jugada óptima |
+| **time** | [docs.python.org/3/library/time.html](https://docs.python.org/3/library/time.html) | Pausa dramática (`time.sleep`) para simular "pensamiento" de la IA |
+
+*Nota: Ambas son librerías built-in de Python. No requieren instalación con pip.*
 
 ### Clonar y Ejecutar
 
